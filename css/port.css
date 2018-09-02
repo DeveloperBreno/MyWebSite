@@ -1,0 +1,275 @@
+﻿@media handheld, only screen and (max-width: 99999px) and (min-width: 601px){
+
+@font-face {
+    font-family: PoiretOne-Regular;
+    src: url(../font/PoiretOne-Regular.ttf);
+}
+.port{
+	width: 100%;
+	margin: 0px;
+
+}
+
+.portf{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding-top: 10px;
+}
+
+div.portf:hover div.imgsportifolio{
+	opacity: 1;
+	transition: .7s;
+	transition-delay: .3s;
+
+}
+
+
+.pa{
+	width: 100%;
+	text-align: center;
+	    font-size: 30px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+}
+
+
+.inkodonto{
+
+		width: 100%;
+	text-align: center;
+	    font-size: 40px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+
+}
+
+
+.reponsivo{
+		width: 100%;
+	text-align: center;
+	    font-size: 24px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+}
+
+.todasasimgs{
+	margin: auto;
+}
+
+.imgsportifolio{
+	opacity: 0;
+	transition: 9999999999999s;
+	float: left;
+	width: 31%;
+	margin: 0px 1%;
+	height: 450px;
+	
+}
+
+div#lo{
+	background-image: url(../ima/lo.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+div#re{
+	background-image: url(../ima/re.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+div#de{
+	background-image: url(../ima/de.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+button#btvisitar {
+    background-image: url(../bt.png); /* Green */
+    background-position: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 209px;
+        font-weight: 400;
+    background-color: #2196F3	;
+    transition:background-color .7s ;
+    font-size: 24px!important;
+    font-family: Verdana,sans-serif;
+    color: #fff;
+    line-height: 0.5;
+    text-align: center;
+    font-weight: 400;
+}
+button#btvisitar:focus{
+	    outline: -webkit-focus-ring-color auto 0px;
+}
+
+button#btvisitar:hover{
+	transition:background-color .7s ;
+	background-color: #FFC107;
+
+}
+
+}
+
+
+
+@media handheld, only screen and (max-width: 600px){
+
+@font-face {
+    font-family: PoiretOne-Regular;
+    src: url(../font/PoiretOne-Regular.ttf);
+}
+.port{
+	width: 100%;
+	margin: 0px;
+
+}
+
+.portf{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+
+
+.pa{
+	width: 100%;
+	text-align: center;
+	    font-size: 30px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+}
+
+
+.inkodonto{
+
+		width: 100%;
+	text-align: center;
+	    font-size: 20px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+
+}
+
+
+.reponsivo{
+		width: 100%;
+	text-align: center;
+	    font-size: 24px!important;
+    font-family: Verdana,sans-serif;
+    color: #555555;
+    line-height: 1.5;
+    
+    font-weight: 400;
+}
+
+.todasasimgs{
+	margin: auto;
+}
+
+.imgsportifolio{
+    float: left;
+    width: 100%;
+    margin: auto;
+    height: 315px;
+	
+}
+
+div#lo{
+	background-image: url(../ima/lo.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+div#re{
+	background-image: url(../ima/re.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+div#de{
+	background-image: url(../ima/de.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+button#btvisitar {
+    background-image: url(../bt.png); /* Green */
+    background-position: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 209px;
+        font-weight: 400;
+    background-color: #2196F3	;
+    transition:background-color .7s ;
+    font-size: 24px!important;
+    font-family: Verdana,sans-serif;
+    color: #fff;
+    line-height: 0.5;
+    text-align: center;
+    font-weight: 400;
+}
+button#btvisitar:focus{
+	    outline: -webkit-focus-ring-color auto 0px;
+}
+
+button#btvisitar:hover{
+	transition:background-color .7s ;
+	background-color: #FFC107;
+
+}
+
+
+
+}
